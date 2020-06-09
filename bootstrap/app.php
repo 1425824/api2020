@@ -73,9 +73,9 @@ $app->configure('app');
 |
 */
 
-$app->middleware([
-    palanik\lumen\Middleware\LumenCors::class
-]);
+//$app->middleware([
+  //  palanik\lumen\Middleware\LumenCors::class
+//]);
 
 // $app->routeMiddleware([
 //     'auth' => App\Http\Middleware\Authenticate::class,
