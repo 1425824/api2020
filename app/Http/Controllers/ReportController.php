@@ -55,9 +55,9 @@ class ReportController extends Controller
 			<div style=" flex: 1;" >
 				<p style="font-weight:bold; font-size:13px;" > '.$exercici->exID.'. '.$exercici->exName.' ('.$exercici->exEstimatedTime.'min)</p>
 				<img  style="position:absolute;" alt="exImage" src="'.$exercici->exImage.'" width="275" height="125" >
-				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Descripció: </b>'.$exercici->exDescription.' </p>
-				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Material: </b>'.$exercici->exMaterials.' </p>
-				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Observacions: </b>'.$exercici->exObservations.' </p>
+				<p  style="position:relative; width:10cm; left:280px; margin-right:20px; font-size:11px;" > <b>Descripció: </b>'.$exercici->exDescription.' </p>
+				<p  style="position:relative; width:10cm; left:280px; margin-right:20px; font-size:11px;" > <b>Material: </b>'.$exercici->exMaterials.' </p>
+				<p  style="position:relative; width:10cm; left:280px; margin-right:20px; font-size:11px;" > <b>Observacions: </b>'.$exercici->exObservations.' </p>
 			</div >
         </div>
 		';
