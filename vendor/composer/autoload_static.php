@@ -34,6 +34,7 @@ class ComposerStaticInit3c7d163ef4d2098dcd03d8cbb722ce25
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+            'palanik\\lumen\\Middleware\\' => 25,
         ),
         'W' => 
         array (
@@ -159,6 +160,10 @@ class ComposerStaticInit3c7d163ef4d2098dcd03d8cbb722ce25
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'palanik\\lumen\\Middleware\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/palanik/lumen-cors',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -458,7 +463,11 @@ class ComposerStaticInit3c7d163ef4d2098dcd03d8cbb722ce25
         'App\\Events\\ExampleEvent' => __DIR__ . '/../..' . '/app/Events/ExampleEvent.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExampleController.php',
+        'App\\Http\\Controllers\\ExsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExsController.php',
+        'App\\Http\\Controllers\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginController.php',
+        'App\\Http\\Controllers\\NewExController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewExController.php',
+        'App\\Http\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/RegsiterController.php',
+        'App\\Http\\Controllers\\ReportController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReportController.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\ExampleMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/ExampleMiddleware.php',
         'App\\Jobs\\ExampleJob' => __DIR__ . '/../..' . '/app/Jobs/ExampleJob.php',
@@ -3582,6 +3591,7 @@ class ComposerStaticInit3c7d163ef4d2098dcd03d8cbb722ce25
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
+        'palanik\\lumen\\Middleware\\LumenCors' => __DIR__ . '/..' . '/palanik/lumen-cors/LumenCors.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
