@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use Barryvdh\DomPDF\Facade as PDF;
+
 
 use Illuminate\Http\Request;
 
@@ -42,7 +42,7 @@ class ReportController extends Controller
 		$dateStr = $date->format('d F Y');
         $output = '
 		<div style="margin-left:6%;  width:18cm; height:100px; " >
-			<img style="height:100px; width:200px;" src="./img/itennisBlack.png" >
+			<img style="height:100px; width:200px;" src="https://firebasestorage.googleapis.com/v0/b/itennistfg.appspot.com/o/itennisBlack.png?alt=media&token=eedf1a86-bc1c-46c8-afff-fe3364c92041" >
 			<div style="margin-left:11%; padding:0px; top:0px; font-size:11px;"  > '.$dateStr.' </div>
 		</div>
 		<br>
@@ -55,9 +55,9 @@ class ReportController extends Controller
 			<div style=" flex: 1;" >
 				<p style="font-weight:bold; font-size:13px;" > '.$exercici->exID.'. '.$exercici->exName.' ('.$exercici->exEstimatedTime.'min)</p>
 				<img  style="position:absolute;" alt="exImage" src="'.$exercici->exImage.'" width="275" height="125" >
-				<p  style="position:relative; width:11cm; left:280px; margin-right:20px; font-size:11px;" > <b>Descripció: </b>'.$exercici->exDescription.' </p>
-				<p  style="position:relative; width:11cm; left:280px; margin-right:20px; font-size:11px;" > <b>Material: </b>'.$exercici->exMaterials.' </p>
-				<p  style="position:relative; width:11cm; left:280px; margin-right:20px; font-size:11px;" > <b>Observacions: </b>'.$exercici->exObservations.' </p>
+				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Descripció: </b>'.$exercici->exDescription.' </p>
+				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Material: </b>'.$exercici->exMaterials.' </p>
+				<p  style="position:relative; width:9cm; left:280px; margin-right:20px; font-size:11px;" > <b>Observacions: </b>'.$exercici->exObservations.' </p>
 			</div >
         </div>
 		';
